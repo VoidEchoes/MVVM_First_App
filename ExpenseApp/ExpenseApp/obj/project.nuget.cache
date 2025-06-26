@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3Ypb4mAjdB0=",
+  "success": true,
+  "projectFilePath": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\ExpenseApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anton\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
