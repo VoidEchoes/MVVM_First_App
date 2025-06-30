@@ -47,3 +47,5 @@ D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\re
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\ExpenseApp.pdb
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\ExpenseApp.genruntimeconfig.cache
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\ref\ExpenseApp.dll
+D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll

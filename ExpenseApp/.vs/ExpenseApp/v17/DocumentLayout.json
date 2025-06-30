@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\conventer\\categoryconventer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\conventer\\categoryconventer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\services\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\services\\iexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\models\\expensecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\models\\expensecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\conventer\\categoryconventer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\conventer\\categoryconventer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +55,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Expense.cs",
-              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Models\\Expense.cs",
-              "RelativeDocumentMoniker": "ExpenseApp\\Models\\Expense.cs",
-              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Models\\Expense.cs",
-              "RelativeToolTip": "ExpenseApp\\Models\\Expense.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T10:11:45.517Z",
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\App.xaml",
+              "RelativeDocumentMoniker": "ExpenseApp\\App.xaml",
+              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\App.xaml",
+              "RelativeToolTip": "ExpenseApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-30T11:02:42.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryConventer.cs",
-              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Conventer\\CategoryConventer.cs",
-              "RelativeDocumentMoniker": "ExpenseApp\\Conventer\\CategoryConventer.cs",
-              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Conventer\\CategoryConventer.cs",
-              "RelativeToolTip": "ExpenseApp\\Conventer\\CategoryConventer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBQAAABBAAAAAAAAAA==",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ExpenseApp\\App.xaml.cs",
+              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\App.xaml.cs",
+              "RelativeToolTip": "ExpenseApp\\App.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T10:11:31.98Z",
+              "WhenOpened": "2025-06-30T11:02:07.592Z",
               "EditorCaption": ""
             },
             {
@@ -63,7 +86,85 @@
               "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Views\\MainWindow.xaml",
               "RelativeToolTip": "ExpenseApp\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-30T09:54:25.994Z",
+              "WhenOpened": "2025-06-30T11:02:01.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ExpenseApp\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ExpenseApp\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:01:54.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IExpenseService.cs",
+              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Services\\IExpenseService.cs",
+              "RelativeDocumentMoniker": "ExpenseApp\\Services\\IExpenseService.cs",
+              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Services\\IExpenseService.cs",
+              "RelativeToolTip": "ExpenseApp\\Services\\IExpenseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:01:46.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExpenseService.cs",
+              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Services\\ExpenseService.cs",
+              "RelativeDocumentMoniker": "ExpenseApp\\Services\\ExpenseService.cs",
+              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Services\\ExpenseService.cs",
+              "RelativeToolTip": "ExpenseApp\\Services\\ExpenseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:01:40.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExpenseCategory.cs",
+              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Models\\ExpenseCategory.cs",
+              "RelativeDocumentMoniker": "ExpenseApp\\Models\\ExpenseCategory.cs",
+              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Models\\ExpenseCategory.cs",
+              "RelativeToolTip": "ExpenseApp\\Models\\ExpenseCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:01:38.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "ExpenseApp\\Models\\Expense.cs",
+              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Models\\Expense.cs",
+              "RelativeToolTip": "ExpenseApp\\Models\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:01:37.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryConventer.cs",
+              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Conventer\\CategoryConventer.cs",
+              "RelativeDocumentMoniker": "ExpenseApp\\Conventer\\CategoryConventer.cs",
+              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Conventer\\CategoryConventer.cs",
+              "RelativeToolTip": "ExpenseApp\\Conventer\\CategoryConventer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:01:33.945Z",
               "EditorCaption": ""
             }
           ]

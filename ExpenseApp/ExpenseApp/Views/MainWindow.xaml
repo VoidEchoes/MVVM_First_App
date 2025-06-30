@@ -1,7 +1,6 @@
 ﻿<Window x:Class="ExpenseApp.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:vm="clr-namespace:ExpenseApp.ViewModels"
         xmlns:conv="clr-namespace:ExpenseApp.Conventer"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         Title="Калькулятор витрат" Height="600" Width="800">
@@ -9,10 +8,6 @@
     <Window.Resources>
         <conv:CategoryConventer x:Key="CategoryConventer"/>
     </Window.Resources>
-
-    <Window.DataContext>
-        <vm:MainViewModel />
-    </Window.DataContext>
 
     <Grid Margin="20">
         <Grid.RowDefinitions>

@@ -2,11 +2,14 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using ExpenseApp.Models;
+using ExpenseApp.Services;
 
 namespace ExpenseApp.ViewModels
 {
     public partial class MainViewModel : ObservableObject
     {
+        private readonly IExpenseService _expenseService;
+
         [ObservableProperty]
         private ExpenseCategory? category;
 
@@ -43,13 +46,15 @@ namespace ExpenseApp.ViewModels
             ExpenseCategory.Other
         };
 
-        public MainViewModel()
+        public MainViewModel(IExpenseService expenseService)
         {
+            _expenseService = expenseService;
             SelectedCategory = ExpenseCategory.All;
+            CalculateTotal();
         }
 
 
-        public ObservableCollection<Expense> Expenses { get; } = new();
+        public ObservableCollection<Expense> Expenses => _expenseService.Expenses;
 
 
         [RelayCommand]
@@ -58,7 +63,7 @@ namespace ExpenseApp.ViewModels
             if (Category == null || Amount <= 0)
                 return;
 
-            Expenses.Add(new Expense
+            _expenseService.AddExpense(new Expense
             {
                 Category = Category.Value,
                 Amount = Amount,
@@ -77,20 +82,12 @@ namespace ExpenseApp.ViewModels
         [RelayCommand]
         private void FilterByCategory()
         {
-            if (SelectedCategory == ExpenseCategory.All)
-            {
-                CalculateTotal();
-                return;
-            }
-
-            TotalAmount = Expenses
-                .Where(e => e.Category == SelectedCategory)
-                .Sum(e => e.Amount);
+            TotalAmount = _expenseService.CalculateTotalExpenses(SelectedCategory);
         }
 
         private void CalculateTotal()
         {
-            TotalAmount = Expenses.Sum(e => e.Amount);
+            TotalAmount = _expenseService.CalculateTotalExpenses();
         }
     }
 }
