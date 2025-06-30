@@ -1,21 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WPF_App\\ExpenseApp\\",
+  "WorkspaceRootPath": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\wpf_app\\expenseapp\\expenseapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\conventer\\categoryconventer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\conventer\\categoryconventer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\wpf_app\\expenseapp\\expenseapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\wpf_app\\expenseapp\\expenseapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\wpf_app\\expenseapp\\expenseapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|d:\\git_programs\\mvvm_first_app\\expenseapp\\expenseapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{313E58E3-DABC-468F-97C5-7F1D3EA23831}|ExpenseApp\\ExpenseApp.csproj|solutionrelative:expenseapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +30,40 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "ExpenseApp\\Models\\Expense.cs",
+              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Models\\Expense.cs",
+              "RelativeToolTip": "ExpenseApp\\Models\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T10:11:45.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\App.xaml",
-              "RelativeDocumentMoniker": "ExpenseApp\\App.xaml",
-              "ToolTip": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\App.xaml",
-              "RelativeToolTip": "ExpenseApp\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-26T13:14:23.926Z",
+              "Title": "CategoryConventer.cs",
+              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Conventer\\CategoryConventer.cs",
+              "RelativeDocumentMoniker": "ExpenseApp\\Conventer\\CategoryConventer.cs",
+              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Conventer\\CategoryConventer.cs",
+              "RelativeToolTip": "ExpenseApp\\Conventer\\CategoryConventer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T10:11:31.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ExpenseApp\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "ExpenseApp\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAcwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T13:07:37.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ExpenseApp\\Views\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ExpenseApp\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T12:54:12.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\Views\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ExpenseApp\\Views\\MainWindow.xaml",
-              "ToolTip": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\Views\\MainWindow.xaml",
+              "ToolTip": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\Views\\MainWindow.xaml",
               "RelativeToolTip": "ExpenseApp\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-26T12:47:36.433Z",
+              "WhenOpened": "2025-06-30T09:54:25.994Z",
               "EditorCaption": ""
             }
           ]

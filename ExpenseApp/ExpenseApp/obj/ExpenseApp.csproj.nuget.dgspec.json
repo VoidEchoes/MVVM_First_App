@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\ExpenseApp.csproj": {}
+    "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\ExpenseApp.csproj": {}
   },
   "projects": {
-    "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\ExpenseApp.csproj": {
+    "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\ExpenseApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\ExpenseApp.csproj",
+        "projectUniqueName": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\ExpenseApp.csproj",
         "projectName": "ExpenseApp",
-        "projectPath": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\ExpenseApp.csproj",
+        "projectPath": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\ExpenseApp.csproj",
         "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-        "outputPath": "D:\\WPF_App\\ExpenseApp\\ExpenseApp\\obj\\",
+        "outputPath": "D:\\Git_Programs\\MVVM_First_App\\ExpenseApp\\ExpenseApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

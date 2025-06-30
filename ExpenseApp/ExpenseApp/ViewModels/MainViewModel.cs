@@ -8,7 +8,7 @@ namespace ExpenseApp.ViewModels
     public partial class MainViewModel : ObservableObject
     {
         [ObservableProperty]
-        private string category = string.Empty;
+        private ExpenseCategory? category;
 
         [ObservableProperty]
         private decimal amount;
@@ -20,25 +20,32 @@ namespace ExpenseApp.ViewModels
         private DateTime date = DateTime.Now;
 
         [ObservableProperty]
-        private string? selectedCategory;
+        private ExpenseCategory selectedCategory;
 
         [ObservableProperty]
         private decimal totalAmount;
 
 
-        public ObservableCollection<string> AllCategories { get; } = new()
-    {
-        "Продукти", "Транспорт", "Розваги", "Інше", "Всі"
-    };
+        public ObservableCollection<ExpenseCategory> AllCategories { get; } = new()
+        {
+            ExpenseCategory.Food,
+            ExpenseCategory.Transport,
+            ExpenseCategory.Entertainment,
+            ExpenseCategory.Other,
+            ExpenseCategory.All
+        };
 
-        public ObservableCollection<string> AddCategories { get; } = new()
-    {
-        "Продукти", "Транспорт", "Розваги", "Інше"
-    };
+        public ObservableCollection<ExpenseCategory> AddCategories { get; } = new()
+        {
+            ExpenseCategory.Food,
+            ExpenseCategory.Transport,
+            ExpenseCategory.Entertainment,
+            ExpenseCategory.Other
+        };
 
         public MainViewModel()
         {
-            SelectedCategory = "Всі";
+            SelectedCategory = ExpenseCategory.All;
         }
 
 
@@ -48,12 +55,12 @@ namespace ExpenseApp.ViewModels
         [RelayCommand]
         private void AddExpense()
         {
-            if (string.IsNullOrWhiteSpace(Category) || Amount <= 0)
+            if (Category == null || Amount <= 0)
                 return;
 
             Expenses.Add(new Expense
             {
-                Category = Category,
+                Category = Category.Value,
                 Amount = Amount,
                 Description = Description,
                 Date = Date
@@ -70,7 +77,7 @@ namespace ExpenseApp.ViewModels
         [RelayCommand]
         private void FilterByCategory()
         {
-            if (string.IsNullOrWhiteSpace(SelectedCategory) || SelectedCategory == "Всі")
+            if (SelectedCategory == ExpenseCategory.All)
             {
                 CalculateTotal();
                 return;

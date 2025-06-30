@@ -1,9 +1,12 @@
-﻿namespace ExpenseApp.Models;
+﻿using System;
 
-public class Expense
+namespace ExpenseApp.Models
 {
-    public string Category { get; set; } = string.Empty;
-    public decimal Amount { get; set; }
-    public DateTime Date { get; set; } = DateTime.Now;
-    public string Description { get; set; } = string.Empty;
+    public class Expense
+    {
+        public ExpenseCategory Category { get; set; }
+        public decimal Amount { get; set; }
+        public string Description { get; set; } = string.Empty;
+        public DateTime Date { get; set; }
+    }
 }
