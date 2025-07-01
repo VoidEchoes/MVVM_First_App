@@ -28,12 +28,16 @@ D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\bin\Debug\net9.0-windows\Ex
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\bin\Debug\net9.0-windows\ExpenseApp.dll
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\bin\Debug\net9.0-windows\ExpenseApp.pdb
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\bin\Debug\net9.0-windows\CommunityToolkit.Mvvm.dll
+D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\ExpenseApp.csproj.AssemblyReference.cache
+D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\Views\EditExpenseWindow.g.cs
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\Views\MainWindow.g.cs
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\App.g.cs
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\ExpenseApp_MarkupCompile.cache
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\ExpenseApp_MarkupCompile.lref
+D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\Views\EditExpenseWindow.baml
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\Views\MainWindow.baml
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\ExpenseApp.g.resources
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\ExpenseApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -47,5 +51,3 @@ D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\re
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\ExpenseApp.pdb
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\ExpenseApp.genruntimeconfig.cache
 D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\obj\Debug\net9.0-windows\ref\ExpenseApp.dll
-D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\Git_Programs\MVVM_First_App\ExpenseApp\ExpenseApp\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll

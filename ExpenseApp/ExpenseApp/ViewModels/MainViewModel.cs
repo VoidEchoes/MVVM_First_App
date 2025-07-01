@@ -1,8 +1,10 @@
 ﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using ExpenseApp.Models;
 using ExpenseApp.Services;
+using ExpenseApp.Views;
 
 namespace ExpenseApp.ViewModels
 {
@@ -28,6 +30,8 @@ namespace ExpenseApp.ViewModels
         [ObservableProperty]
         private decimal totalAmount;
 
+        [ObservableProperty]
+        private bool canEdit;
 
         public ObservableCollection<ExpenseCategory> AllCategories { get; } = new()
         {
@@ -51,11 +55,52 @@ namespace ExpenseApp.ViewModels
             _expenseService = expenseService;
             SelectedCategory = ExpenseCategory.All;
             CalculateTotal();
+
+            Expenses.CollectionChanged += (s, e) =>
+            {
+                if (e.OldItems != null)
+                    foreach (Expense item in e.OldItems)
+                        item.PropertyChanged -= Expense_PropertyChanged;
+
+                if (e.NewItems != null)
+                    foreach (Expense item in e.NewItems)
+                        item.PropertyChanged += Expense_PropertyChanged;
+
+                UpdateCanEdit();
+            };
+
+            foreach (var expense in Expenses)
+                expense.PropertyChanged += Expense_PropertyChanged;
         }
 
 
         public ObservableCollection<Expense> Expenses => _expenseService.Expenses;
 
+        private void Expense_PropertyChanged(object? sender, PropertyChangedEventArgs e)
+        {
+            if (e.PropertyName == nameof(Expense.IsSelected))
+                UpdateCanEdit();
+        }
+
+        private void UpdateCanEdit()
+        {
+            CanEdit = Expenses.Count(e => e.IsSelected) == 1;
+        }
+
+        [RelayCommand]
+        private void EditExpense()
+        {
+            var selectedExpense = Expenses.FirstOrDefault(e => e.IsSelected);
+            if (selectedExpense == null) return;
+
+            var editWindow = new EditExpenseWindow(selectedExpense);
+            if (editWindow.ShowDialog() == true)
+            {
+                 FilterByCategory();
+            }
+
+            selectedExpense.IsSelected = false;
+        }
 
         [RelayCommand]
         private void AddExpense()
